@@ -1,0 +1,5 @@
+C:\Users\Conny\Downloads\LaboratorioNominas-master\Laboratorio_Nomina\Capa_Datos\bin\Debug\Capa_Datos.dll
+C:\Users\Conny\Downloads\LaboratorioNominas-master\Laboratorio_Nomina\Capa_Datos\bin\Debug\Capa_Datos.pdb
+C:\Users\Conny\Downloads\LaboratorioNominas-master\Laboratorio_Nomina\Capa_Datos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Conny\Downloads\LaboratorioNominas-master\Laboratorio_Nomina\Capa_Datos\obj\Debug\Capa_Datos.dll
+C:\Users\Conny\Downloads\LaboratorioNominas-master\Laboratorio_Nomina\Capa_Datos\obj\Debug\Capa_Datos.pdb

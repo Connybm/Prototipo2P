@@ -1,0 +1,9 @@
+C:\Users\Conny\Downloads\LaboratorioNominas-master\Laboratorio_Nomina\Capa_Logica\bin\Debug\Capa_Logica.dll
+C:\Users\Conny\Downloads\LaboratorioNominas-master\Laboratorio_Nomina\Capa_Logica\bin\Debug\Capa_Logica.pdb
+C:\Users\Conny\Downloads\LaboratorioNominas-master\Laboratorio_Nomina\Capa_Logica\bin\Debug\Capa_Datos.dll
+C:\Users\Conny\Downloads\LaboratorioNominas-master\Laboratorio_Nomina\Capa_Logica\bin\Debug\Capa_Datos.pdb
+C:\Users\Conny\Downloads\LaboratorioNominas-master\Laboratorio_Nomina\Capa_Logica\obj\Debug\CapaLogica.csprojAssemblyReference.cache
+C:\Users\Conny\Downloads\LaboratorioNominas-master\Laboratorio_Nomina\Capa_Logica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\Conny\Downloads\LaboratorioNominas-master\Laboratorio_Nomina\Capa_Logica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\Conny\Downloads\LaboratorioNominas-master\Laboratorio_Nomina\Capa_Logica\obj\Debug\Capa_Logica.dll
+C:\Users\Conny\Downloads\LaboratorioNominas-master\Laboratorio_Nomina\Capa_Logica\obj\Debug\Capa_Logica.pdb

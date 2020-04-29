@@ -164,11 +164,17 @@
     <Compile Include="MenuPrincipal.Designer.cs">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Procesos\Frm_Nomina.cs">
+    <Compile Include="Procesos\Frm_AsignacionCursosAlumno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Procesos\Frm_Nomina.Designer.cs">
-      <DependentUpon>Frm_Nomina.cs</DependentUpon>
+    <Compile Include="Procesos\Frm_AsignacionCursosAlumno.Designer.cs">
+      <DependentUpon>Frm_AsignacionCursosAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\Frm_AsignacionCursosMaestros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\Frm_AsignacionCursosMaestros.Designer.cs">
+      <DependentUpon>Frm_AsignacionCursosMaestros.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -229,8 +235,11 @@
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Procesos\Frm_Nomina.resx">
-      <DependentUpon>Frm_Nomina.cs</DependentUpon>
+    <EmbeddedResource Include="Procesos\Frm_AsignacionCursosAlumno.resx">
+      <DependentUpon>Frm_AsignacionCursosAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Frm_AsignacionCursosMaestros.resx">
+      <DependentUpon>Frm_AsignacionCursosMaestros.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

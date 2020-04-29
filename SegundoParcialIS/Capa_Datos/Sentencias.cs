@@ -681,13 +681,13 @@ namespace CapaDatos
             }
         }
 
-        //--------Insertar Encabezado Nomina
-        public OdbcDataReader InsertarNominaEncabezado(string sCodigo, string sFechaI, string sFechaF)
+        //--------Insertar asignacion cursos alumnos
+        public OdbcDataReader InsertarAsignacionAlumno(string sCC, string sCS, string sCJ, string sCSe, string sCA, string sCCu, string sCAl, string sNota)
         {
             try
             {
                 cn.conexionbd();
-                string consulta = "insert into nominaE values(" + sCodigo + ", " + sFechaI + "','" + sFechaF + ");";
+                string consulta = "insert into asignacioncursosalumnos values(" + sCC + ", " + sCS + "','" + sCJ + "','" + sCSe + "','" + sCA + "','" + sCCu + "','" + sCAl + "','" + sNota + ");";
                 comm = new OdbcCommand(consulta, cn.conexionbd());
                 OdbcDataReader mostrar = comm.ExecuteReader();
                 return mostrar;
@@ -699,13 +699,13 @@ namespace CapaDatos
             }
         }
 
-        //--------Insertar Detalle Nomina
-        public OdbcDataReader InsertarNominaDetalle(string sCodigo, string sEmpleado, string sConcepto, string sValor)
+        //--------Insertar asignacion cursos mastros
+        public OdbcDataReader InsertarAsignacionMaestro(string sCC, string sCS, string sCJ, string sCSe, string sCA, string sCCu, string sCM)
         {
             try
             {
                 cn.conexionbd();
-                string consulta = "insert into nominaD values(" + sCodigo + ", " + sEmpleado + " ,'" + sConcepto + "','" + sValor + ");";
+                string consulta = "insert into asignacioncursosmastros values(" + sCC + ", " + sCS + " ,'" + sCJ + "','" + sCSe + "','" + sCA + "','" + sCCu + "','" + sCM + ");";
                 comm = new OdbcCommand(consulta, cn.conexionbd());
                 OdbcDataReader mostrar = comm.ExecuteReader();
                 return mostrar;

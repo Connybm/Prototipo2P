@@ -23,8 +23,7 @@ namespace Laboratorio_Nomina.Consultas
             {
                 while (mostrar.Read())
                 {
-                    Dgv_consulta.Rows.Add(mostrar.GetString(0), mostrar.GetString(1),  mostrar.GetString(2), mostrar.GetString(3), 
-                        mostrar.GetString(4), mostrar.GetString(5));
+                    Dgv_consulta.Rows.Add(mostrar.GetString(0), mostrar.GetString(1), mostrar.GetString(2), mostrar.GetString(3), mostrar.GetString(4), mostrar.GetString(5));
                 }
             }
             catch (Exception err)

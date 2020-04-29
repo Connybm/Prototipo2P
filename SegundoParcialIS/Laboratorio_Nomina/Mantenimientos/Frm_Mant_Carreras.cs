@@ -110,6 +110,10 @@ namespace Laboratorio_Nomina.Mantenimientos
                       Cells[0].Value.ToString();
                 Txt_nombre.Text = puesto.Dgv_consulta.Rows[puesto.Dgv_consulta.CurrentRow.Index].
                       Cells[1].Value.ToString();
+                txt_ED.Text = puesto.Dgv_consulta.Rows[puesto.Dgv_consulta.CurrentRow.Index].
+                      Cells[2].Value.ToString();
+                txt_Estatus.Text = puesto.Dgv_consulta.Rows[puesto.Dgv_consulta.CurrentRow.Index].
+                      Cells[3].Value.ToString();
             }
         }
 

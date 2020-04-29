@@ -107,6 +107,14 @@ namespace Laboratorio_Nomina.Mantenimientos
                       Cells[0].Value.ToString();
                 Txt_nombre.Text = depto.Dgv_consulta.Rows[depto.Dgv_consulta.CurrentRow.Index].
                       Cells[1].Value.ToString();
+                Txt_direccion.Text = depto.Dgv_consulta.Rows[depto.Dgv_consulta.CurrentRow.Index].
+                      Cells[2].Value.ToString();
+                txt_telefono.Text = depto.Dgv_consulta.Rows[depto.Dgv_consulta.CurrentRow.Index].
+                      Cells[3].Value.ToString();
+                txt_email.Text = depto.Dgv_consulta.Rows[depto.Dgv_consulta.CurrentRow.Index].
+                      Cells[4].Value.ToString();
+                txt_estatus.Text = depto.Dgv_consulta.Rows[depto.Dgv_consulta.CurrentRow.Index].
+                      Cells[5].Value.ToString();
             }
         }
     }

@@ -112,6 +112,12 @@ namespace Laboratorio_Nomina.Mantenimientos
                       Cells[1].Value.ToString();
                 txt_direccion.Text = concep.Dgv_consulta.Rows[concep.Dgv_consulta.CurrentRow.Index].
                       Cells[2].Value.ToString();
+                txt_Telefono.Text = concep.Dgv_consulta.Rows[concep.Dgv_consulta.CurrentRow.Index].
+                      Cells[3].Value.ToString();
+                txt_email.Text = concep.Dgv_consulta.Rows[concep.Dgv_consulta.CurrentRow.Index].
+                      Cells[4].Value.ToString();
+                Txt_Estatus.Text = concep.Dgv_consulta.Rows[concep.Dgv_consulta.CurrentRow.Index].
+                      Cells[5].Value.ToString();
             }
         }
     }

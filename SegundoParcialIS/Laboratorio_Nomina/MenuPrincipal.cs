@@ -190,30 +190,7 @@ namespace Laboratorio_Nomina
                 alumno.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
-
-        bool ventanaNomina = false;
-        Frm_Nomina nomina = new Frm_Nomina();
-        private void nominaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Nomina);
-            if (ventanaNomina == false || frmC == null)
-            {
-                if (frmC == null)
-                {
-                    nomina = new Frm_Nomina();
-                }
-
-                nomina.MdiParent = this;
-                nomina.Show();
-                Application.DoEvents();
-                ventanaNomina = true;
-            }
-            else
-            {
-                nomina.WindowState = System.Windows.Forms.FormWindowState.Normal;
-            }
-        }
-
+        
         bool ventanaCursos = false;
         Frm_Mant_Cursos curso = new Frm_Mant_Cursos();
         private void cursosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -326,6 +303,52 @@ namespace Laboratorio_Nomina
             else
             {
                 jornada.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanaCA = false;
+        Frm_AsignacionCursosAlumno ca = new Frm_AsignacionCursosAlumno();
+        private void asignacionDeCursosAlAlumnoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_AsignacionCursosAlumno);
+            if (ventanaCA == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    ca = new Frm_AsignacionCursosAlumno();
+                }
+
+                ca.MdiParent = this;
+                ca.Show();
+                Application.DoEvents();
+                ventanaCA = true;
+            }
+            else
+            {
+                ca.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanaCM = false;
+        Frm_AsignacionCursosMaestros cm = new Frm_AsignacionCursosMaestros();
+        private void asignacionDeCursosAlMaestroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_AsignacionCursosMaestros);
+            if (ventanaCM == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    cm = new Frm_AsignacionCursosMaestros();
+                }
+
+                cm.MdiParent = this;
+                cm.Show();
+                Application.DoEvents();
+                ventanaCM = true;
+            }
+            else
+            {
+                cm.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
     }

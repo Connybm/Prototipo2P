@@ -230,17 +230,16 @@ namespace CapaLogica
             return sn.consultajornadas();
         }
 
-
-        //----------INSERTAR ENCABEZADO
-        public OdbcDataReader insertarEncabezadoNomina(string sCodigo, string sFechaI, string sFechaF)
+        //----------INSERTAR asignacion cursos alumnos
+        public OdbcDataReader InsertarAsignacionAlumno(string sCC, string sCS, string sCJ, string sCSe, string sCA, string sCCu, string sCAl, string sNota)
         {
-            return sn.InsertarNominaEncabezado(sCodigo, sFechaI, sFechaF);
+            return sn.InsertarAsignacionAlumno(sCC, sCS, sCJ, sCSe, sCA, sCCu, sCAl, sNota);
         }
 
-        //----------INSERTAR DETALLE
-        public OdbcDataReader insertarDetalleNomina(string sCodigo, string sEmpleado, string sConcepto, string sValor)
+        //----------asignacion cursos mastros
+        public OdbcDataReader InsertarAsignacionMaestro(string sCC, string sCS, string sCJ, string sCSe, string sCA, string sCCu, string sCM)
         {
-            return sn.InsertarNominaDetalle(sCodigo, sEmpleado, sConcepto, sValor);
+            return sn.InsertarAsignacionMaestro(sCC, sCS, sCJ, sCSe, sCA, sCCu, sCM);
         }
     }
 }

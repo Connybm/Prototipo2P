@@ -98,96 +98,96 @@ namespace Laboratorio_Nomina
 
         }
 
-        bool ventanaDepartamento = false;
-        Frm_Mant_Departamento departamento = new Frm_Mant_Departamento();
+        bool ventanaMaestro = false;
+        Frm_Mant_Maestro maestro = new Frm_Mant_Maestro();
         
         private void DepartamentosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Mant_Departamento);
-            if (ventanaDepartamento == false || frmC == null)
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Mant_Maestro);
+            if (ventanaMaestro == false || frmC == null)
             {
                 if (frmC == null)
                 {
-                    departamento = new Frm_Mant_Departamento();
+                    maestro = new Frm_Mant_Maestro();
                 }
 
-                departamento.MdiParent = this;
-                departamento.Show();
+                maestro.MdiParent = this;
+                maestro.Show();
                 Application.DoEvents();
-                ventanaDepartamento = true;
+                ventanaMaestro = true;
             }
             else
             {
-                departamento.WindowState = System.Windows.Forms.FormWindowState.Normal;
+                maestro.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
 
-        bool ventanaPuestos = false;
-        Frm_Mant_Puesto puesto = new Frm_Mant_Puesto();
+        bool ventanaFacultad = false;
+        Frm_Mant_Facultad facultad = new Frm_Mant_Facultad();
         private void PuestosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Mant_Puesto);
-            if (ventanaPuestos == false || frmC == null)
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Mant_Facultad);
+            if (ventanaFacultad == false || frmC == null)
             {
                 if (frmC == null)
                 {
-                    puesto = new Frm_Mant_Puesto();
+                    facultad = new Frm_Mant_Facultad();
                 }
 
-                puesto.MdiParent = this;
-                puesto.Show();
+                facultad.MdiParent = this;
+                facultad.Show();
                 Application.DoEvents();
-                ventanaPuestos = true;
+                ventanaFacultad = true;
             }
             else
             {
-                puesto.WindowState = System.Windows.Forms.FormWindowState.Normal;
+                facultad.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
 
-        bool ventanaEmpleado = false;
-        Frm_Mant_Empleado emp = new Frm_Mant_Empleado();
+        bool ventanaCarrera = false;
+        Frm_Mant_Carreras carrera = new Frm_Mant_Carreras();
         private void EmpleadosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Mant_Empleado);
-            if (ventanaEmpleado == false || frmC == null)
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Mant_Carreras);
+            if (ventanaCarrera == false || frmC == null)
             {
                 if (frmC == null)
                 {
-                    emp = new Frm_Mant_Empleado();
+                    carrera = new Frm_Mant_Carreras();
                 }
 
-                emp.MdiParent = this;
-                emp.Show();
+                carrera.MdiParent = this;
+                carrera.Show();
                 Application.DoEvents();
-                ventanaEmpleado = true;
+                ventanaCarrera = true;
             }
             else
             {
-                emp.WindowState = System.Windows.Forms.FormWindowState.Normal;
+                carrera.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
 
-        bool ventanaConcepto = false;
-        Frm_Mant_Concepto concep = new Frm_Mant_Concepto();
+        bool ventanaAlumnos = false;
+        Frm_Mant_Alumnos alumno = new Frm_Mant_Alumnos();
         private void ConceptoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Mant_Concepto);
-            if (ventanaConcepto == false || frmC == null)
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Mant_Alumnos);
+            if (ventanaAlumnos == false || frmC == null)
             {
                 if (frmC == null)
                 {
-                    concep = new Frm_Mant_Concepto();
+                    alumno = new Frm_Mant_Alumnos();
                 }
 
-                concep.MdiParent = this;
-                concep.Show();
+                alumno.MdiParent = this;
+                alumno.Show();
                 Application.DoEvents();
-                ventanaConcepto = true;
+                ventanaAlumnos = true;
             }
             else
             {
-                concep.WindowState = System.Windows.Forms.FormWindowState.Normal;
+                alumno.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
 
@@ -211,6 +211,121 @@ namespace Laboratorio_Nomina
             else
             {
                 nomina.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanaCursos = false;
+        Frm_Mant_Cursos curso = new Frm_Mant_Cursos();
+        private void cursosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Mant_Cursos);
+            if (ventanaCursos == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    curso = new Frm_Mant_Cursos();
+                }
+
+                curso.MdiParent = this;
+                curso.Show();
+                Application.DoEvents();
+                ventanaCursos = true;
+            }
+            else
+            {
+                curso.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanaSecciones = false;
+        Frm_Mant_Secciones seccion = new Frm_Mant_Secciones();
+        private void seccionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Mant_Secciones);
+            if (ventanaSecciones == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    seccion = new Frm_Mant_Secciones();
+                }
+
+                seccion.MdiParent = this;
+                seccion.Show();
+                Application.DoEvents();
+                ventanaSecciones = true;
+            }
+            else
+            {
+                seccion.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanaSedes = false;
+        Frm_Mant_Sedes sede = new Frm_Mant_Sedes();
+        private void sedesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Mant_Sedes);
+            if (ventanaSedes == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    sede = new Frm_Mant_Sedes();
+                }
+
+                sede.MdiParent = this;
+                sede.Show();
+                Application.DoEvents();
+                ventanaSedes = true;
+            }
+            else
+            {
+                sede.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanaAulas = false;
+        Frm_Mant_Aulas aula = new Frm_Mant_Aulas();
+        private void aulasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Mant_Aulas);
+            if (ventanaAulas == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    aula = new Frm_Mant_Aulas();
+                }
+
+                aula.MdiParent = this;
+                aula.Show();
+                Application.DoEvents();
+                ventanaAulas = true;
+            }
+            else
+            {
+                aula.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanaJornadas = false;
+        Frm_Mant_Jornadas jornada = new Frm_Mant_Jornadas();
+        private void jornadasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Mant_Jornadas);
+            if (ventanaJornadas == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    jornada = new Frm_Mant_Jornadas();
+                }
+
+                jornada.MdiParent = this;
+                jornada.Show();
+                Application.DoEvents();
+                ventanaJornadas = true;
+            }
+            else
+            {
+                jornada.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
     }

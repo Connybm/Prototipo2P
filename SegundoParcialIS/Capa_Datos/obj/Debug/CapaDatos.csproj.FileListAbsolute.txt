@@ -3,3 +3,9 @@ C:\Users\Conny\Downloads\LaboratorioNominas-master\Laboratorio_Nomina\Capa_Datos
 C:\Users\Conny\Downloads\LaboratorioNominas-master\Laboratorio_Nomina\Capa_Datos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
 C:\Users\Conny\Downloads\LaboratorioNominas-master\Laboratorio_Nomina\Capa_Datos\obj\Debug\Capa_Datos.dll
 C:\Users\Conny\Downloads\LaboratorioNominas-master\Laboratorio_Nomina\Capa_Datos\obj\Debug\Capa_Datos.pdb
+C:\Users\Conny\Documents\Carrera U\Ingenieria\9. Noveno Semestre\2. Ingenieria de Software\2. Segundo Parcial\Parcial\SegundoParcial\Prototipo2P\SegundoParcialIS\Capa_Datos\bin\Debug\Capa_Datos.dll
+C:\Users\Conny\Documents\Carrera U\Ingenieria\9. Noveno Semestre\2. Ingenieria de Software\2. Segundo Parcial\Parcial\SegundoParcial\Prototipo2P\SegundoParcialIS\Capa_Datos\bin\Debug\Capa_Datos.pdb
+C:\Users\Conny\Documents\Carrera U\Ingenieria\9. Noveno Semestre\2. Ingenieria de Software\2. Segundo Parcial\Parcial\SegundoParcial\Prototipo2P\SegundoParcialIS\Capa_Datos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\Conny\Documents\Carrera U\Ingenieria\9. Noveno Semestre\2. Ingenieria de Software\2. Segundo Parcial\Parcial\SegundoParcial\Prototipo2P\SegundoParcialIS\Capa_Datos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Conny\Documents\Carrera U\Ingenieria\9. Noveno Semestre\2. Ingenieria de Software\2. Segundo Parcial\Parcial\SegundoParcial\Prototipo2P\SegundoParcialIS\Capa_Datos\obj\Debug\Capa_Datos.dll
+C:\Users\Conny\Documents\Carrera U\Ingenieria\9. Noveno Semestre\2. Ingenieria de Software\2. Segundo Parcial\Parcial\SegundoParcial\Prototipo2P\SegundoParcialIS\Capa_Datos\obj\Debug\Capa_Datos.pdb

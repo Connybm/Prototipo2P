@@ -36,7 +36,7 @@ namespace Laboratorio_Nomina.Procesos
 
         private void btn_buscarE_Click(object sender, EventArgs e)
         {
-            Consulta_Empleado memb = new Consulta_Empleado();
+            Consulta_Carreras memb = new Consulta_Carreras();
             memb.ShowDialog();
 
             if (memb.DialogResult == DialogResult.OK)
@@ -48,7 +48,7 @@ namespace Laboratorio_Nomina.Procesos
 
         private void btn_BuscarC_Click(object sender, EventArgs e)
         {
-            Consulta_Conceptos mem = new Consulta_Conceptos();
+            Consulta_Alumnos mem = new Consulta_Alumnos();
             mem.ShowDialog();
 
             if (mem.DialogResult == DialogResult.OK)

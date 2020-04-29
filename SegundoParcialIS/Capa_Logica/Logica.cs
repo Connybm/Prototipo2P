@@ -14,102 +14,223 @@ namespace CapaLogica
             return llave;
         }
 
-        //----Insertar Concepto
-        public OdbcDataReader InsertarConcepto(string sCodigo, string sNombre, string sEfecto, string sEstado)
+        //----Insertar Alumno
+        public OdbcDataReader InsertarAlumno(string sCodigo, string sNombre, string sDireccion, string sTelefono, string sEmail, string sEstatus)
         {
-            return sn.InsertarConceptos(sCodigo, sNombre, sEfecto, sEstado);
+            return sn.InsertarAlumnos(sCodigo, sNombre, sDireccion, sTelefono, sEmail, sEstatus);
         }
 
-        //----Modificar Concepto
-        public OdbcDataReader ModificarConceptos(string sCodigo, string sNombre, string sEfecto, string sEstado)
+        //----Modificar 
+        public OdbcDataReader ModificarAlumno(string sCodigo, string sNombre, string sDireccion, string sTelefono, string sEmail, string sEstatus)
         {
-            return sn.modificarConceptos(sCodigo, sNombre, sEfecto, sEstado);
+            return sn.modificarAlumnos(sCodigo, sNombre, sDireccion, sTelefono, sEmail, sEstatus);
         }
 
-        //----Eliminar Concepto
-        public OdbcDataReader eliminarConcepto(string sCodigo)
+        //----Eliminar 
+        public OdbcDataReader eliminarAlumno(string sCodigo)
         {
-            return sn.eliminarConceptos(sCodigo);
+            return sn.eliminarAlumnos(sCodigo);
         }
 
-        //-----Consultar Concepto
-        public OdbcDataReader consultarConcepto()
+        //-----Consultar 
+        public OdbcDataReader consultarAlumno()
         {
-            return sn.consultaConcepto();
+            return sn.consultaAlumnos();
         }
 
-        //----Insertar Puesto
-        public OdbcDataReader InsertarPuesto(string sCodigo, string sNombre, string sEstado)
+        //----Insertar Maestro
+        public OdbcDataReader InsertarMaestro(string sCodigo, string sNombre, string sDireccion, string sTelefono, string sEmail, string sEstatus)
         {
-            return sn.InsertarPuesto(sCodigo, sNombre, sEstado);
+            return sn.InsertarMaestros(sCodigo, sNombre, sDireccion, sTelefono, sEmail, sEstatus);
         }
 
-        //----Modificar Puesto
-        public OdbcDataReader modificarPuesto(string sCodigo, string sNombre, string sEstado)
+        //----Modificar 
+        public OdbcDataReader ModificarMaestro(string sCodigo, string sNombre, string sDireccion, string sTelefono, string sEmail, string sEstatus)
         {
-            return sn.modificarPuesto(sCodigo, sNombre, sEstado);
+            return sn.modificarMaestros(sCodigo, sNombre, sDireccion, sTelefono, sEmail, sEstatus);
         }
 
-        //----Eliminar Puesto
-        public OdbcDataReader eliminarPuesto(string sCodigo)
+        //----Eliminar 
+        public OdbcDataReader eliminarMaestro(string sCodigo)
         {
-            return sn.eliminarPuesto(sCodigo);
+            return sn.eliminarMaestros(sCodigo);
         }
 
-        //-----Consultar Puesto
-        public OdbcDataReader consultarPuesto()
+        //-----Consultar 
+        public OdbcDataReader consultarMaestro()
         {
-            return sn.consultaPuesto();
+            return sn.consultaMaestros();
         }
 
-        //----Insertar Empleado
-        public OdbcDataReader InsertarEmpleado(string sCodigo, string sNombre, string sCP, string sCD, string sSueldo, string sEstatus)
+        //----Insertar Facultad
+        public OdbcDataReader Insertarfacultad(string sCodigo, string sNombre, string sEstatus)
         {
-            return sn.InsertarEmpleados(sCodigo, sNombre, sCP, sCD, sSueldo,sEstatus);
+            return sn.InsertarFacultades(sCodigo, sNombre, sEstatus);
         }
 
-        //----Modificar Empleado
-        public OdbcDataReader modificarEmpleado(string sCodigo, string sNombre, string sCP, string sCD, string sSueldo, string sEstatus)
+        //----Modificar 
+        public OdbcDataReader Modificarfacultad(string sCodigo, string sNombre, string sEstatus)
         {
-            return sn.modificarEmpleados(sCodigo, sNombre, sCP, sCD, sSueldo, sEstatus);
+            return sn.modificarFacultades(sCodigo, sNombre, sEstatus);
         }
 
-        //----Eliminar Empleado
-        public OdbcDataReader eliminarEmpleado(string sCodigo)
+        //----Eliminar 
+        public OdbcDataReader eliminarfacultad(string sCodigo)
         {
-            return sn.eliminarEmpleados(sCodigo);
+            return sn.eliminarFacultades(sCodigo);
         }
 
-        //-----Consultar Empleado
-        public OdbcDataReader consultarEmpleado()
+        //-----Consultar 
+        public OdbcDataReader consultarfacultad()
         {
-            return sn.consultaEmpleados();
+            return sn.consultaFacultades();
         }
 
-        //-----UPDATE DEPARTAMENTO
-        public OdbcDataReader modificarDepartamento(string sCodigo, string sNombre, string sEstado)
+        //----Insertar Carrera
+        public OdbcDataReader Insertarcarrera(string sCodigo, string sNombre, string sCC, string sEstatus)
         {
-            return sn.modificarDepartamento(sCodigo, sNombre, sEstado);
+            return sn.InsertarCarreras(sCodigo, sNombre, sCC, sEstatus);
         }
-        
-        //-----INSERTAR DEPARTAMENTO
-        public OdbcDataReader insertarDepartamento(string sCodigo, string sNombre, string sEstado)
+
+        //----Modificar 
+        public OdbcDataReader Modificarcarrera(string sCodigo, string sNombre, string sCC, string sEstatus)
         {
-            return sn.insertarDepartamento(sCodigo, sNombre, sEstado);
+            return sn.modificarCarreras(sCodigo, sNombre, sCC, sEstatus);
         }
-        
-        //----ELIMINAR DEPARTAMENTO
-        public OdbcDataReader eliminarDepartamento(string sCodigo)
+
+        //----Eliminar 
+        public OdbcDataReader eliminarcarrera(string sCodigo)
         {
-            return sn.eliminarDepartamento(sCodigo);
+            return sn.eliminarCarreras(sCodigo);
         }
-        
-        //----CONSULTA DEPARTAMENTO
-        public OdbcDataReader consultaDepartamento()
+
+        //-----Consultar 
+        public OdbcDataReader consultarcarrera()
         {
-            return sn.consultaDepartamento();
+            return sn.consultaCarreras();
         }
-        
+
+        //----Insertar Cursos
+        public OdbcDataReader InsertarCursos(string sCodigo, string sNombre, string sEstatus)
+        {
+            return sn.Insertarcursos(sCodigo, sNombre, sEstatus);
+        }
+
+        //----Modificar 
+        public OdbcDataReader ModificarCursos(string sCodigo, string sNombre, string sEstatus)
+        {
+            return sn.modificarcursos(sCodigo, sNombre, sEstatus);
+        }
+
+        //----Eliminar 
+        public OdbcDataReader eliminarCursos(string sCodigo)
+        {
+            return sn.eliminarcursos(sCodigo);
+        }
+
+        //-----Consultar 
+        public OdbcDataReader consultarCursos()
+        {
+            return sn.consultacursos();
+        }
+
+        //----Insertar Secciones
+        public OdbcDataReader InsertarSecciones(string sCodigo, string sNombre, string sEstatus)
+        {
+            return sn.Insertarsecciones(sCodigo, sNombre, sEstatus);
+        }
+
+        //----Modificar 
+        public OdbcDataReader ModificarSecciones(string sCodigo, string sNombre, string sEstatus)
+        {
+            return sn.modificarsecciones(sCodigo, sNombre, sEstatus);
+        }
+
+        //----Eliminar 
+        public OdbcDataReader eliminarSecciones(string sCodigo)
+        {
+            return sn.eliminarsecciones(sCodigo);
+        }
+
+        //-----Consultar 
+        public OdbcDataReader consultarSecciones()
+        {
+            return sn.consultasecciones();
+        }
+
+        //----Insertar Sedes
+        public OdbcDataReader InsertarSedes(string sCodigo, string sNombre, string sEstatus)
+        {
+            return sn.Insertarsedes(sCodigo, sNombre, sEstatus);
+        }
+
+        //----Modificar 
+        public OdbcDataReader ModificarSedes(string sCodigo, string sNombre, string sEstatus)
+        {
+            return sn.modificarsedes(sCodigo, sNombre, sEstatus);
+        }
+
+        //----Eliminar 
+        public OdbcDataReader eliminarSedes(string sCodigo)
+        {
+            return sn.eliminarsedes(sCodigo);
+        }
+
+        //-----Consultar 
+        public OdbcDataReader consultarSedes()
+        {
+            return sn.consultasedes();
+        }
+
+        //----Insertar Aulas
+        public OdbcDataReader InsertarAulas(string sCodigo, string sNombre, string sEstatus)
+        {
+            return sn.Insertaraulas(sCodigo, sNombre, sEstatus);
+        }
+
+        //----Modificar 
+        public OdbcDataReader ModificarAulas(string sCodigo, string sNombre, string sEstatus)
+        {
+            return sn.modificaraulas(sCodigo, sNombre, sEstatus);
+        }
+
+        //----Eliminar 
+        public OdbcDataReader eliminarAulas(string sCodigo)
+        {
+            return sn.eliminaraulas(sCodigo);
+        }
+
+        //-----Consultar 
+        public OdbcDataReader consultarAulas()
+        {
+            return sn.consultaaulas();
+        }
+
+        //----Insertar Jornadas
+        public OdbcDataReader InsertarJornadas(string sCodigo, string sNombre, string sEstatus)
+        {
+            return sn.Insertarjornadas(sCodigo, sNombre, sEstatus);
+        }
+
+        //----Modificar 
+        public OdbcDataReader ModificarJornadas(string sCodigo, string sNombre, string sEstatus)
+        {
+            return sn.modificarjornadas(sCodigo, sNombre, sEstatus);
+        }
+
+        //----Eliminar 
+        public OdbcDataReader eliminarJornadas(string sCodigo)
+        {
+            return sn.eliminarjornadas(sCodigo);
+        }
+
+        //-----Consultar 
+        public OdbcDataReader consultarJornadas()
+        {
+            return sn.consultajornadas();
+        }
+
+
         //----------INSERTAR ENCABEZADO
         public OdbcDataReader insertarEncabezadoNomina(string sCodigo, string sFechaI, string sFechaF)
         {

@@ -50,53 +50,113 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Consultas\Consulta_Departamento.cs">
+    <Compile Include="Consultas\Consulta_Aulas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Consultas\Consulta_Departamento.Designer.cs">
-      <DependentUpon>Consulta_Departamento.cs</DependentUpon>
+    <Compile Include="Consultas\Consulta_Aulas.Designer.cs">
+      <DependentUpon>Consulta_Aulas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Consultas\Consulta_Empleado.cs">
+    <Compile Include="Consultas\Consulta_Cursos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Consultas\Consulta_Empleado.Designer.cs">
-      <DependentUpon>Consulta_Empleado.cs</DependentUpon>
+    <Compile Include="Consultas\Consulta_Cursos.Designer.cs">
+      <DependentUpon>Consulta_Cursos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Consultas\Consulta_Puesto.cs">
+    <Compile Include="Consultas\Consulta_Jornadas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Consultas\Consulta_Puesto.Designer.cs">
-      <DependentUpon>Consulta_Puesto.cs</DependentUpon>
+    <Compile Include="Consultas\Consulta_Jornadas.Designer.cs">
+      <DependentUpon>Consulta_Jornadas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Consultas\Consulta_Conceptos.cs">
+    <Compile Include="Consultas\Consulta_Maestro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Consultas\Consulta_Conceptos.designer.cs">
-      <DependentUpon>Consulta_Conceptos.cs</DependentUpon>
+    <Compile Include="Consultas\Consulta_Maestro.Designer.cs">
+      <DependentUpon>Consulta_Maestro.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mantenimientos\Frm_Mant_Concepto.cs">
+    <Compile Include="Consultas\Consulta_Carreras.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mantenimientos\Frm_Mant_Concepto.designer.cs">
-      <DependentUpon>Frm_Mant_Concepto.cs</DependentUpon>
+    <Compile Include="Consultas\Consulta_Carreras.Designer.cs">
+      <DependentUpon>Consulta_Carreras.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mantenimientos\Frm_Mant_Departamento.cs">
+    <Compile Include="Consultas\Consulta_Facultad.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mantenimientos\Frm_Mant_Departamento.Designer.cs">
-      <DependentUpon>Frm_Mant_Departamento.cs</DependentUpon>
+    <Compile Include="Consultas\Consulta_Facultad.Designer.cs">
+      <DependentUpon>Consulta_Facultad.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mantenimientos\Frm_Mant_Empleado.cs">
+    <Compile Include="Consultas\Consulta_Alumnos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mantenimientos\Frm_Mant_Empleado.Designer.cs">
-      <DependentUpon>Frm_Mant_Empleado.cs</DependentUpon>
+    <Compile Include="Consultas\Consulta_Alumnos.designer.cs">
+      <DependentUpon>Consulta_Alumnos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mantenimientos\Frm_Mant_Puesto.cs">
+    <Compile Include="Consultas\Consulta_Secciones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mantenimientos\Frm_Mant_Puesto.Designer.cs">
-      <DependentUpon>Frm_Mant_Puesto.cs</DependentUpon>
+    <Compile Include="Consultas\Consulta_Secciones.Designer.cs">
+      <DependentUpon>Consulta_Secciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\Consulta_Sedes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Consulta_Sedes.Designer.cs">
+      <DependentUpon>Consulta_Sedes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_Mant_Alumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_Mant_Alumno.designer.cs">
+      <DependentUpon>Frm_Mant_Alumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_Mant_Aulas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_Mant_Aulas.Designer.cs">
+      <DependentUpon>Frm_Mant_Aulas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_Mant_Cursos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_Mant_Cursos.Designer.cs">
+      <DependentUpon>Frm_Mant_Cursos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_Mant_Jornadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_Mant_Jornadas.Designer.cs">
+      <DependentUpon>Frm_Mant_Jornadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_Mant_Maestro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_Mant_Maestro.Designer.cs">
+      <DependentUpon>Frm_Mant_Maestro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_Mant_Carreras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_Mant_Carreras.Designer.cs">
+      <DependentUpon>Frm_Mant_Carreras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_Mant_Facultad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_Mant_Facultad.Designer.cs">
+      <DependentUpon>Frm_Mant_Facultad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_Mant_Secciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_Mant_Secciones.Designer.cs">
+      <DependentUpon>Frm_Mant_Secciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_Mant_Sedes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_Mant_Sedes.Designer.cs">
+      <DependentUpon>Frm_Mant_Sedes.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -112,29 +172,59 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Consultas\Consulta_Departamento.resx">
-      <DependentUpon>Consulta_Departamento.cs</DependentUpon>
+    <EmbeddedResource Include="Consultas\Consulta_Aulas.resx">
+      <DependentUpon>Consulta_Aulas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Consultas\Consulta_Empleado.resx">
-      <DependentUpon>Consulta_Empleado.cs</DependentUpon>
+    <EmbeddedResource Include="Consultas\Consulta_Cursos.resx">
+      <DependentUpon>Consulta_Cursos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Consultas\Consulta_Puesto.resx">
-      <DependentUpon>Consulta_Puesto.cs</DependentUpon>
+    <EmbeddedResource Include="Consultas\Consulta_Jornadas.resx">
+      <DependentUpon>Consulta_Jornadas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Consultas\Consulta_Conceptos.resx">
-      <DependentUpon>Consulta_Conceptos.cs</DependentUpon>
+    <EmbeddedResource Include="Consultas\Consulta_Maestro.resx">
+      <DependentUpon>Consulta_Maestro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mantenimientos\Frm_Mant_Concepto.resx">
-      <DependentUpon>Frm_Mant_Concepto.cs</DependentUpon>
+    <EmbeddedResource Include="Consultas\Consulta_Carreras.resx">
+      <DependentUpon>Consulta_Carreras.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mantenimientos\Frm_Mant_Departamento.resx">
-      <DependentUpon>Frm_Mant_Departamento.cs</DependentUpon>
+    <EmbeddedResource Include="Consultas\Consulta_Facultad.resx">
+      <DependentUpon>Consulta_Facultad.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mantenimientos\Frm_Mant_Empleado.resx">
-      <DependentUpon>Frm_Mant_Empleado.cs</DependentUpon>
+    <EmbeddedResource Include="Consultas\Consulta_Alumnos.resx">
+      <DependentUpon>Consulta_Alumnos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mantenimientos\Frm_Mant_Puesto.resx">
-      <DependentUpon>Frm_Mant_Puesto.cs</DependentUpon>
+    <EmbeddedResource Include="Consultas\Consulta_Secciones.resx">
+      <DependentUpon>Consulta_Secciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\Consulta_Sedes.resx">
+      <DependentUpon>Consulta_Sedes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Frm_Mant_Alumno.resx">
+      <DependentUpon>Frm_Mant_Alumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Frm_Mant_Aulas.resx">
+      <DependentUpon>Frm_Mant_Aulas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Frm_Mant_Cursos.resx">
+      <DependentUpon>Frm_Mant_Cursos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Frm_Mant_Jornadas.resx">
+      <DependentUpon>Frm_Mant_Jornadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Frm_Mant_Maestro.resx">
+      <DependentUpon>Frm_Mant_Maestro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Frm_Mant_Carreras.resx">
+      <DependentUpon>Frm_Mant_Carreras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Frm_Mant_Facultad.resx">
+      <DependentUpon>Frm_Mant_Facultad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Frm_Mant_Secciones.resx">
+      <DependentUpon>Frm_Mant_Secciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Frm_Mant_Sedes.resx">
+      <DependentUpon>Frm_Mant_Sedes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>

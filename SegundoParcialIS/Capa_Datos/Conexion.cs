@@ -7,7 +7,7 @@ namespace CapaDatos
     {
         public OdbcConnection conexionbd()
         {
-            OdbcConnection conn = new OdbcConnection("Dsn=nomina");// creacion de la conexion via ODBC
+            OdbcConnection conn = new OdbcConnection("Dsn=SUI");// creacion de la conexion via ODBC
 
             try
             {
